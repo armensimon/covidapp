@@ -3,11 +3,11 @@ import ObjectMapper
 class Language: Mappable {
     
     static let availableLanguages: [Language] = [
-        Language(languageType: .english, shortTitle: "Language.ShortTitleEn".localized(), title: "Language.TitleEn".localized(), languageCode: "Language.LanguageCodeEn".localized()),
-        Language(languageType: .croatian, shortTitle: "Language.ShortTitleHr".localized(), title: "Language.TitleHr".localized(), languageCode: "Language.LanguageCodeHr".localized())
+        Language(languageType: .armenian, shortTitle: "Language.ShortTitleEn".localized(), title: "Language.TitleEn".localized(), languageCode: "Language.LanguageCodeEn".localized()),
+                 Language(languageType: .croatian, shortTitle: "Language.ShortTitleHr".localized(), title: "Language.TitleHr".localized(), languageCode: "Language.LanguageCodeHr".localized())
     ]
     
-    var languageType: LanguageType = .english
+    var languageType: LanguageType = .armenian
     var shortTitle: String?
     var title: String?
     var languageCode: String?
@@ -57,7 +57,7 @@ class Language: Mappable {
         switch languageType {
         case .croatian:
             return "Language.ShortTitleEn".localized()
-        case .english:
+        case .armenian:
             return "Language.ShortTitleHr".localized()
         }
     }

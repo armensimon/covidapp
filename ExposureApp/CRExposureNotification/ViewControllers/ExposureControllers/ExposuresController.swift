@@ -144,10 +144,10 @@ class ExposuresController: UIViewController {
     }
     
     @IBAction func changeLanguage() {
-        if Language.getDefaultLanguage().languageType == .english {
+        if Language.getDefaultLanguage().languageType == .armenian {
             Language.setDefaultLanguage(language: Language.findLanguageByType(languageType: .croatian))
         } else {
-            Language.setDefaultLanguage(language: Language.findLanguageByType(languageType: .english))
+            Language.setDefaultLanguage(language: Language.findLanguageByType(languageType: .armenian))
         }
         
         if let controller = tabBarController as? TabbarController {

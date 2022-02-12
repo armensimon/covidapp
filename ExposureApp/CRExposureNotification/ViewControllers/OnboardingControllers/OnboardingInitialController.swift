@@ -7,7 +7,7 @@ class OnboardingInitialController: UIViewController {
     @IBOutlet weak var lblAppLanguage: UILabel!
 
     @IBOutlet weak var hrLanguageButton: LanguageButton!
-    @IBOutlet weak var enLanguageButton: LanguageButton!
+    @IBOutlet weak var armLanguageButton: LanguageButton!
     @IBOutlet weak var btnContinue: UIButton!
 
     static func instantiate() -> OnboardingInitialController {
@@ -21,20 +21,20 @@ class OnboardingInitialController: UIViewController {
     }
     
     private func setupLanguage() {
-        if Language.getDefaultLanguage().languageType == .english{
+        if Language.getDefaultLanguage().languageType == .armenian{
             hrLanguageButton.deselect()
-            enLanguageButton.setSelected()
-            ivLogoTop.image = UIImage(named: "Ministvarstvo-logo-EN")
-            ivLogoMiddle.image = UIImage(named: "Logo-EN")
+            armLanguageButton.setSelected()
+            ivLogoTop.image = UIImage(named: "Ministvarstvo-logo-ARM")
+            ivLogoMiddle.image = UIImage(named: "Logo-ARM")
         } else {
-            enLanguageButton.deselect()
+            armLanguageButton.deselect()
             hrLanguageButton.setSelected()
             ivLogoTop.image = UIImage(named: "Ministvarstvo-logo-HR")
             ivLogoMiddle.image = UIImage(named: "Logo-HR")
         }
         lblAppLanguage.text = "OnboardingInitialController.AppLanguage".localized()
         hrLanguageButton.languageLabel.text = "OnboardingInitialController.Croatian".localized()
-        enLanguageButton.languageLabel.text = "OnboardingInitialController.English".localized()
+        armLanguageButton.languageLabel.text = "OnboardingInitialController.English".localized()
         btnContinue.setTitle("OnboardingInitialController.Continue".localized(), for: .normal)
     }
     
@@ -44,7 +44,7 @@ class OnboardingInitialController: UIViewController {
     }
     
     @IBAction func selectEnglish() {
-        Language.setDefaultLanguage(language: Language.findLanguageByType(languageType: .english))
+        Language.setDefaultLanguage(language: Language.findLanguageByType(languageType: .armenian))
         setupLanguage()
     }
     

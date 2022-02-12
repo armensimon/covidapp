@@ -22,20 +22,20 @@
 "ErrorAlert.PositiveText" = "Ok";
 
 // MARK: Language
-"Language.ShortTitleEn" = "EN";
+"Language.ShortTitleEn" = "ARM";
 "Language.ShortTitleHr" = "HR";
 
-"Language.TitleEn" = "English";
+"Language.TitleEn" = "Armenian";
 "Language.TitleHr" = "Croatian";
 
-"Language.LanguageCodeEn" = "en-GB";
+"Language.LanguageCodeEn" = "arm-hy";
 "Language.LanguageCodeHr" = "hr-HR";
 
 // MARK: ONBOARDING CONTROLLERS
 //OnboardingInitialController
 "OnboardingInitialController.AppLanguage" = "Language:";
 "OnboardingInitialController.Croatian" = "Croatian";
-"OnboardingInitialController.English" = "English";
+"OnboardingInitialController.Armenian" = "Armenian";
 "OnboardingInitialController.Continue" = "Get Started";
 
 // MARK: MAIN CONTROLLERS

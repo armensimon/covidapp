@@ -54,9 +54,9 @@ class InitialController: UIViewController {
     }
     
     private func setupSpleshScreen(){
-        if Language.getDefaultLanguage().languageType == .english{
-            ivTopImage.image = UIImage(named: "Ministvarstvo-logo-EN")
-            ivMiddleImage.image = UIImage(named: "Logo-EN")
+        if Language.getDefaultLanguage().languageType == .armenian{
+            ivTopImage.image = UIImage(named: "Ministvarstvo-logo-ARM")
+            ivMiddleImage.image = UIImage(named: "Logo-ARM")
             ivBottomImage.image = UIImage(named: "apis-image-transparent")
         } else {
             ivTopImage.image = UIImage(named: "Ministvarstvo-logo-HR")

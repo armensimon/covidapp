@@ -15,8 +15,8 @@ class ForceUpdateController: UIViewController {
     }
     
     private func setup(){
-        if Language.getDefaultLanguage().languageType == .english{
-            ivTopImage.image = UIImage(named: "Ministvarstvo-logo-EN")
+        if Language.getDefaultLanguage().languageType == .armenian{
+            ivTopImage.image = UIImage(named: "Ministvarstvo-logo-ARM")
         } else {
             ivTopImage.image = UIImage(named: "Ministvarstvo-logo-HR")
         }

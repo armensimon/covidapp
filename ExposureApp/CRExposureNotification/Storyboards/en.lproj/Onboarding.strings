@@ -3,37 +3,38 @@
 "3gp-CK-OZp.normalTitle" = "App Store";
 
 /* Class = "UILabel"; text = "The application cannot identify you or the people you have been in contact with."; ObjectID = "A3r-ql-zgP"; */
-"A3r-ql-zgP.text" = "The application cannot identify you or the people you have been in contact with.";
+"A3r-ql-zgP.text" = "Հավելվածը չի կարող նույնականացնել ձեզ կամ մարդկանց, ում հետ շփվել եք.";
 
 /* Class = "UILabel"; text = "The application does not collect your personal data, like your name, surname, date of birth, address, telephone number etc."; ObjectID = "AYI-bW-M4A"; */
-"AYI-bW-M4A.text" = "The application does not collect your personal data, like your name, surname, date of birth, address, telephone number etc.";
+"AYI-bW-M4A.text" = "Հավելվածը չի հավաքում ձեր անձնական տվյալները, ինչպիսիք են ձեր անունը, ազգանունը, ծննդյան ամսաթիվը, հասցեն, հեռախոսահամարը և այլն.";
 
 /* Class = "UILabel"; text = "New version of the application is available. The new version needs to be downloaded in order to use the application."; ObjectID = "QkY-iX-DFw"; */
-"QkY-iX-DFw.text" = "New version of the application is available. The new version needs to be downloaded in order to use the application.";
+"QkY-iX-DFw.text" = "Հավելվածի նոր տարբերակը հասանելի է։ Հավելվածից օգտվելու համար անհրաժեշտ է ներբեռնել նոր տարբերակը.";
 
 /* Class = "UILabel"; text = "In case of infection and with your consent, your keys will be temporarily stored on a server in the Republic of Croatia managed by the Ministry of Health. If you consent to exchange of keys with other European countries, your keys will be temporarily stored on their servers."; ObjectID = "ROu-hg-dys"; */
-"ROu-hg-dys.text" = "In case of infection and with your consent, your keys will be temporarily stored on a server in the Republic of Croatia managed by the Ministry of Health. If you consent to exchange of keys with other European countries, your keys will be temporarily stored on their servers.";
+"ROu-hg-dys.text" = "Վարակվելու դեպքում և ձեր համաձայնությամբ ձեր բանալիները ժամանակավորապես կպահվեն Խորվաթիայի Հանրապետության սերվերում, որը կառավարվում է Առողջապահության նախարարության կողմից: Եթե ​​դուք համաձայնում եք բանալիների փոխանակմանը եվրոպական այլ երկրների հետ, ձեր բանալիները ժամանակավորապես կպահվեն նրանց սերվերներում.";
 
 /* Class = "UILabel"; text = "Stop COVID-19"; ObjectID = "VBN-iA-uu0"; */
 "VBN-iA-uu0.text" = "Stop COVID-19";
 
 /* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "VKJ-qa-KHo"; */
-"VKJ-qa-KHo.normalTitle" = "Continue";
+"VKJ-qa-KHo.normalTitle" = "Շարունակել";
 
 /* Class = "UILabel"; text = "Your privacy is safe"; ObjectID = "W7r-lJ-NIo"; */
-"W7r-lJ-NIo.text" = "Your privacy is safe";
+"W7r-lJ-NIo.text" = "Ձեր գաղտնիությունը ապահով է
+";
 
 /* Class = "UILabel"; text = "Language:"; ObjectID = "XsM-SV-5Qp"; */
-"XsM-SV-5Qp.text" = "Language:";
+"XsM-SV-5Qp.text" = "Լեզու:";
 
 /* Class = "UINavigationItem"; title = "Contact Records"; ObjectID = "YQa-vA-nlf"; */
-"YQa-vA-nlf.title" = "Contact Records";
+"YQa-vA-nlf.title" = "Կոնտակտային գրառումներ";
 
 /* Class = "UILabel"; text = "There is no collection of geolocation data (GPS), your movement is not tracked."; ObjectID = "fxu-ID-yfd"; */
-"fxu-ID-yfd.text" = "There is no collection of geolocation data (GPS), your movement is not tracked.";
+"fxu-ID-yfd.text" = "Աշխարհագրական տվյալների (GPS) հավաքածու չկա, ձեր շարժումը չի հետագծվում.";
 
 /* Class = "UILabel"; text = "The data saved on your device and the connections to the server are encrypted."; ObjectID = "qGU-S4-B4c"; */
-"qGU-S4-B4c.text" = "The data saved on your device and the connections to the server are encrypted.";
+"qGU-S4-B4c.text" = "Ձեր սարքում պահված տվյալները և սերվերի հետ կապերը կոդավորված են.";
 
 /* Class = "UIButton"; normalTitle = "Get Started"; ObjectID = "ubw-Ej-9XU"; */
-"ubw-Ej-9XU.normalTitle" = "Get Started";
+"ubw-Ej-9XU.normalTitle" = "Սկսել";

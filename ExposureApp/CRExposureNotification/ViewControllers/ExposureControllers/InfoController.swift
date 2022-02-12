@@ -20,10 +20,10 @@ class InfoController: UIViewController {
         lblPrivacyPolicy.underline()
         lblAccesibilityPolicy.underline()
         lblPartyLicense.underline()
-        if Language.getDefaultLanguage().languageType == .english{
-            ivLogo.image = UIImage(named: "Ministvarstvo-logo-EN")
-            ivDevelopBy.image = UIImage(named: "develop-by-apis-EN")
-            ivDesign.image = UIImage(named: "design-by-BF-info-EN")
+        if Language.getDefaultLanguage().languageType == .armenian{
+            ivLogo.image = UIImage(named: "Ministvarstvo-logo-ARM")
+            ivDevelopBy.image = UIImage(named: "develop-by-apis-ARM")
+            ivDesign.image = UIImage(named: "design-by-BF-info-ARM")
         } else {
             ivLogo.image = UIImage(named: "Ministvarstvo-logo-HR")
             ivDevelopBy.image = UIImage(named: "develop-by-apis-HR")
