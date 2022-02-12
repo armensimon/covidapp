@@ -256,6 +256,11 @@
 		6E2A7435CFE0CCB73E3C05A9 /* Pods-CRExposureNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRExposureNotification.release.xcconfig"; path = "Target Support Files/Pods-CRExposureNotification/Pods-CRExposureNotification.release.xcconfig"; sourceTree = "<group>"; };
 		8AA8CEC644EBC2602F306142 /* libPods-CRExposureNotification.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRExposureNotification.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BF4E022D9C657F029F338F /* Pods-CRExposureNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRExposureNotification.debug.xcconfig"; path = "Target Support Files/Pods-CRExposureNotification/Pods-CRExposureNotification.debug.xcconfig"; sourceTree = "<group>"; };
+		EBC3B76727B7C025004305F8 /* hy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hy; path = hy.lproj/Exposures.strings; sourceTree = "<group>"; };
+		EBC3B76827B7C025004305F8 /* hy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hy; path = hy.lproj/Notify.strings; sourceTree = "<group>"; };
+		EBC3B77027B7C025004305F8 /* hy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hy; path = hy.lproj/Helpers.strings; sourceTree = "<group>"; };
+		EBC3B77127B7C025004305F8 /* hy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hy; path = hy.lproj/PositiveTestCell.strings; sourceTree = "<group>"; };
+		EBC3B77227B7C025004305F8 /* hy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hy; path = hy.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EF01FEC5254C2FD600C61F75 /* NSTextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSTextAlignment.swift; sourceTree = "<group>"; };
 		EF01FF0A254C328000C61F75 /* icon-mask-anim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "icon-mask-anim.json"; sourceTree = "<group>"; };
 		EF01FF0B254C328000C61F75 /* icon-risk-details-anim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "icon-risk-details-anim.json"; sourceTree = "<group>"; };
@@ -660,13 +665,13 @@
 		EFE09A8725554887001C337B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EFE09A9125554887001C337B /* libAlamofire.a */,
-				EFE09A9325554887001C337B /* liblottie-ios.a */,
-				EFE09A9525554887001C337B /* libNVActivityIndicatorView.a */,
-				EFE09A9725554887001C337B /* libObjectMapper.a */,
-				EFE09A9925554887001C337B /* libPods-CRExposureNotification.a */,
-				EFE09A9B25554887001C337B /* libSwiftProtobuf.a */,
-				EFE09A9D25554887001C337B /* libZip.a */,
+				EFE09A9125554887001C337B /* Alamofire */,
+				EFE09A9325554887001C337B /* lottie-ios */,
+				EFE09A9525554887001C337B /* NVActivityIndicatorView */,
+				EFE09A9725554887001C337B /* ObjectMapper */,
+				EFE09A9925554887001C337B /* Pods-CRExposureNotification */,
+				EFE09A9B25554887001C337B /* SwiftProtobuf */,
+				EFE09A9D25554887001C337B /* Zip */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -716,6 +721,7 @@
 				en,
 				hr,
 				Base,
+				hy,
 			);
 			mainGroup = 1AD80B84247E7A7D00F72046;
 			productRefGroup = 1AD80B8E247E7A7D00F72046 /* Products */;
@@ -734,51 +740,58 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		EFE09A9125554887001C337B /* libAlamofire.a */ = {
+		EFE09A9125554887001C337B /* Alamofire */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
+			name = Alamofire;
 			path = libAlamofire.a;
 			remoteRef = EFE09A9025554887001C337B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EFE09A9325554887001C337B /* liblottie-ios.a */ = {
+		EFE09A9325554887001C337B /* lottie-ios */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
+			name = "lottie-ios";
 			path = "liblottie-ios.a";
 			remoteRef = EFE09A9225554887001C337B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EFE09A9525554887001C337B /* libNVActivityIndicatorView.a */ = {
+		EFE09A9525554887001C337B /* NVActivityIndicatorView */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
+			name = NVActivityIndicatorView;
 			path = libNVActivityIndicatorView.a;
 			remoteRef = EFE09A9425554887001C337B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EFE09A9725554887001C337B /* libObjectMapper.a */ = {
+		EFE09A9725554887001C337B /* ObjectMapper */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
+			name = ObjectMapper;
 			path = libObjectMapper.a;
 			remoteRef = EFE09A9625554887001C337B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EFE09A9925554887001C337B /* libPods-CRExposureNotification.a */ = {
+		EFE09A9925554887001C337B /* Pods-CRExposureNotification */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
+			name = "Pods-CRExposureNotification";
 			path = "libPods-CRExposureNotification.a";
 			remoteRef = EFE09A9825554887001C337B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EFE09A9B25554887001C337B /* libSwiftProtobuf.a */ = {
+		EFE09A9B25554887001C337B /* SwiftProtobuf */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
+			name = SwiftProtobuf;
 			path = libSwiftProtobuf.a;
 			remoteRef = EFE09A9A25554887001C337B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EFE09A9D25554887001C337B /* libZip.a */ = {
+		EFE09A9D25554887001C337B /* Zip */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
+			name = Zip;
 			path = libZip.a;
 			remoteRef = EFE09A9C25554887001C337B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -933,6 +946,7 @@
 			children = (
 				04EFF8132497823C001DD589 /* en */,
 				04EFF815249782BA001DD589 /* hr */,
+				EBC3B77227B7C025004305F8 /* hy */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -951,6 +965,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				04EFF82F2497A573001DD589 /* Base */,
+				EBC3B77027B7C025004305F8 /* hy */,
 			);
 			name = Helpers.storyboard;
 			sourceTree = "<group>";
@@ -961,6 +976,7 @@
 				04EFF8362497A6CC001DD589 /* Base */,
 				04EFF83B2497A6D4001DD589 /* hr */,
 				043D0B5624AA7A8300C201CF /* en */,
+				EBC3B76827B7C025004305F8 /* hy */,
 			);
 			name = Notify.storyboard;
 			sourceTree = "<group>";
@@ -971,6 +987,7 @@
 				1A1D34A7249A5A6D00C0325E /* Base */,
 				1A1D34AC249A5BDE00C0325E /* hr */,
 				043AB55E24AC78AC003B6D84 /* en */,
+				EBC3B76727B7C025004305F8 /* hy */,
 			);
 			name = Exposures.storyboard;
 			sourceTree = "<group>";
@@ -981,6 +998,7 @@
 				1A1F3E31249CDE0600A3D021 /* Base */,
 				1A1F3E36249CDE1E00A3D021 /* hr */,
 				043AB55C24AC7811003B6D84 /* en */,
+				EBC3B77127B7C025004305F8 /* hy */,
 			);
 			name = PositiveTestCell.xib;
 			sourceTree = "<group>";
